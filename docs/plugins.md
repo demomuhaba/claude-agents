@@ -325,7 +325,7 @@ plugins/python-development/
 ### Step 1: Add the Marketplace
 
 ```bash
-/plugin marketplace add demomuhaba/claude-agents
+/plugin marketplace add wshobson/agents
 ```
 
 This makes all 63 plugins available for installation, but **does not load any agents or tools** into your context.
