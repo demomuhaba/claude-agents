@@ -1,13 +1,13 @@
 {
   "name": "claude-code-workflows",
   "owner": {
-    "name": "Red Scorp",
-    "email": "demomuhaba11@gmail.com",
+    "name": "Redsec Labs",
+    "email": "tarp.fig3848@eagereverest.com",
     "url": "https://github.com/demomuhaba"
   },
   "metadata": {
-    "description": "Production-ready workflow orchestration with 64 focused plugins, 87 specialized agents, and 44 tools - optimized for granular installation and minimal token usage",
-    "version": "1.2.0"
+    "description": "Production-ready workflow orchestration with 67 focused plugins, 99 specialized agents, and 107 skills - optimized for granular installation and minimal token usage",
+    "version": "1.3.1"
   },
   "plugins": [
     {
@@ -16,7 +16,7 @@
       "description": "Documentation generation, code explanation, and technical writing with automated doc generation and tutorial creation",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -46,7 +46,7 @@
       "description": "Interactive debugging, developer experience optimization, and smart debugging workflows",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -74,7 +74,7 @@
       "description": "Git workflow automation, pull request enhancement, and team onboarding processes",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -101,10 +101,10 @@
     {
       "name": "backend-development",
       "source": "./plugins/backend-development",
-      "description": "Backend API design, GraphQL architecture, and test-driven backend development",
-      "version": "1.2.2",
+      "description": "Backend API design, GraphQL architecture, workflow orchestration with Temporal, and test-driven backend development",
+      "version": "1.2.4",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -115,7 +115,10 @@
         "api-design",
         "graphql",
         "tdd",
-        "architecture"
+        "architecture",
+        "temporal",
+        "workflow-orchestration",
+        "distributed-systems"
       ],
       "category": "development",
       "strict": false,
@@ -125,21 +128,29 @@
       "agents": [
         "./agents/backend-architect.md",
         "./agents/graphql-architect.md",
-        "./agents/tdd-orchestrator.md"
+        "./agents/tdd-orchestrator.md",
+        "./agents/temporal-python-pro.md",
+        "./agents/event-sourcing-architect.md"
       ],
       "skills": [
         "./skills/api-design-principles",
         "./skills/architecture-patterns",
-        "./skills/microservices-patterns"
+        "./skills/microservices-patterns",
+        "./skills/workflow-orchestration-patterns",
+        "./skills/temporal-python-testing",
+        "./skills/event-store-design",
+        "./skills/projection-patterns",
+        "./skills/saga-orchestration",
+        "./skills/cqrs-implementation"
       ]
     },
     {
       "name": "frontend-mobile-development",
       "source": "./plugins/frontend-mobile-development",
       "description": "Frontend UI development and mobile application implementation across platforms",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -160,6 +171,12 @@
       "agents": [
         "./agents/frontend-developer.md",
         "./agents/mobile-developer.md"
+      ],
+      "skills": [
+        "./skills/react-state-management",
+        "./skills/nextjs-app-router-patterns",
+        "./skills/react-native-architecture",
+        "./skills/tailwind-design-system"
       ]
     },
     {
@@ -168,7 +185,7 @@
       "description": "End-to-end feature orchestration with testing, security, performance, and deployment",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -199,7 +216,7 @@
       "description": "Unit and integration test automation for Python and JavaScript with debugging support",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -228,7 +245,7 @@
       "description": "Test-driven development methodology with red-green-refactor cycles and code review",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -259,7 +276,7 @@
       "description": "AI-powered architectural review and code quality analysis",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -286,7 +303,7 @@
       "description": "Code cleanup, refactoring automation, and technical debt management with context restoration",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -316,7 +333,7 @@
       "description": "Dependency auditing, version management, and security vulnerability scanning",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -344,7 +361,7 @@
       "description": "Error analysis, trace debugging, and multi-agent problem diagnosis",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -374,7 +391,7 @@
       "description": "Team workflows, issue management, standup automation, and developer experience optimization",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -400,9 +417,9 @@
       "name": "llm-application-dev",
       "source": "./plugins/llm-application-dev",
       "description": "LLM application development, prompt engineering, and AI assistant optimization",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -425,13 +442,18 @@
       ],
       "agents": [
         "./agents/ai-engineer.md",
-        "./agents/prompt-engineer.md"
+        "./agents/prompt-engineer.md",
+        "./agents/vector-database-engineer.md"
       ],
       "skills": [
         "./skills/langchain-architecture",
         "./skills/llm-evaluation",
         "./skills/prompt-engineering-patterns",
-        "./skills/rag-implementation"
+        "./skills/rag-implementation",
+        "./skills/embedding-strategies",
+        "./skills/similarity-search-patterns",
+        "./skills/vector-index-tuning",
+        "./skills/hybrid-search-implementation"
       ]
     },
     {
@@ -440,7 +462,7 @@
       "description": "Multi-agent system optimization, agent improvement workflows, and context management",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -468,7 +490,7 @@
       "description": "Context persistence, restoration, and long-running conversation management",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -496,7 +518,7 @@
       "description": "ML model training pipelines, hyperparameter tuning, model deployment automation, experiment tracking, and MLOps workflows",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -528,9 +550,9 @@
       "name": "data-engineering",
       "source": "./plugins/data-engineering",
       "description": "ETL pipeline construction, data warehouse design, batch processing workflows, and data-driven feature development",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -552,15 +574,21 @@
       "agents": [
         "./agents/data-engineer.md",
         "./agents/backend-architect.md"
+      ],
+      "skills": [
+        "./skills/dbt-transformation-patterns",
+        "./skills/airflow-dag-patterns",
+        "./skills/spark-optimization",
+        "./skills/data-quality-frameworks"
       ]
     },
     {
       "name": "incident-response",
       "source": "./plugins/incident-response",
       "description": "Production incident management, triage workflows, and automated incident resolution",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -581,6 +609,11 @@
       "agents": [
         "./agents/incident-responder.md",
         "./agents/devops-troubleshooter.md"
+      ],
+      "skills": [
+        "./skills/incident-runbook-templates",
+        "./skills/postmortem-writing",
+        "./skills/on-call-handoff-patterns"
       ]
     },
     {
@@ -589,7 +622,7 @@
       "description": "Error tracing, root cause analysis, and smart debugging for production systems",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -619,7 +652,7 @@
       "description": "Distributed system tracing and debugging across microservices",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -647,7 +680,7 @@
       "description": "Metrics collection, logging infrastructure, distributed tracing, SLO implementation, and monitoring dashboards",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -688,7 +721,7 @@
       "description": "Deployment patterns, rollback automation, and infrastructure templates",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -715,7 +748,7 @@
       "description": "Pre-deployment checks, configuration validation, and deployment readiness assessment",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -742,7 +775,7 @@
       "description": "Kubernetes manifest generation, networking configuration, security policies, observability setup, GitOps workflows, and auto-scaling",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -773,9 +806,9 @@
       "name": "cloud-infrastructure",
       "source": "./plugins/cloud-infrastructure",
       "description": "Cloud architecture design for AWS/Azure/GCP, Kubernetes cluster configuration, Terraform infrastructure-as-code, hybrid cloud networking, and multi-cloud cost optimization",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -799,13 +832,18 @@
         "./agents/hybrid-cloud-architect.md",
         "./agents/terraform-specialist.md",
         "./agents/network-engineer.md",
-        "./agents/deployment-engineer.md"
+        "./agents/deployment-engineer.md",
+        "./agents/service-mesh-expert.md"
       ],
       "skills": [
         "./skills/cost-optimization",
         "./skills/hybrid-cloud-networking",
         "./skills/multi-cloud-architecture",
-        "./skills/terraform-module-library"
+        "./skills/terraform-module-library",
+        "./skills/istio-traffic-management",
+        "./skills/linkerd-patterns",
+        "./skills/mtls-configuration",
+        "./skills/service-mesh-observability"
       ]
     },
     {
@@ -814,7 +852,7 @@
       "description": "CI/CD pipeline configuration, GitHub Actions/GitLab CI workflow setup, and automated deployment pipeline orchestration",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -852,7 +890,7 @@
       "description": "Application profiling, performance optimization, and observability for frontend and backend systems",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -881,7 +919,7 @@
       "description": "Database query optimization, cloud cost optimization, and scalability improvements",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -911,7 +949,7 @@
       "description": "Multi-perspective code analysis covering architecture, security, and best practices",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -942,7 +980,7 @@
       "description": "Performance analysis, test coverage review, and AI-powered code quality assessment",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -970,7 +1008,7 @@
       "description": "Framework updates, migration planning, and architectural transformation workflows",
       "version": "1.2.2",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1007,7 +1045,7 @@
       "description": "Technical debt reduction, dependency updates, and code refactoring automation",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1037,7 +1075,7 @@
       "description": "Database architecture, schema design, and SQL optimization for production systems",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1066,7 +1104,7 @@
       "description": "Database migration automation, observability, and cross-database migration strategies",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1094,9 +1132,9 @@
       "name": "security-scanning",
       "source": "./plugins/security-scanning",
       "description": "SAST analysis, dependency vulnerability scanning, OWASP Top 10 compliance, container security scanning, and automated security hardening",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1117,10 +1155,15 @@
         "./commands/security-dependencies.md"
       ],
       "agents": [
-        "./agents/security-auditor.md"
+        "./agents/security-auditor.md",
+        "./agents/threat-modeling-expert.md"
       ],
       "skills": [
-        "./skills/sast-configuration"
+        "./skills/sast-configuration",
+        "./skills/stride-analysis-patterns",
+        "./skills/attack-tree-construction",
+        "./skills/security-requirement-extraction",
+        "./skills/threat-mitigation-mapping"
       ]
     },
     {
@@ -1129,7 +1172,7 @@
       "description": "SOC2, HIPAA, and GDPR compliance validation, secrets scanning, compliance checklists, and regulatory documentation",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1158,7 +1201,7 @@
       "description": "API security hardening, authentication implementation, authorization patterns, rate limiting, and input validation",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1185,7 +1228,7 @@
       "description": "XSS prevention, CSRF protection, content security policies, mobile app security, and secure storage patterns",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1215,7 +1258,7 @@
       "description": "Schema validation, data quality monitoring, streaming validation pipelines, and input validation for backend APIs",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1241,7 +1284,7 @@
       "description": "REST and GraphQL API scaffolding, framework selection, backend architecture, and API generation",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1274,7 +1317,7 @@
       "description": "API testing automation, request mocking, OpenAPI documentation generation, observability setup, and monitoring",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1302,7 +1345,7 @@
       "description": "SEO content writing, planning, and quality auditing with E-E-A-T optimization",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1329,7 +1372,7 @@
       "description": "Technical SEO optimization including meta tags, keywords, structure, and featured snippets",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1358,7 +1401,7 @@
       "description": "Content freshness analysis, cannibalization detection, and authority building for SEO",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1384,9 +1427,9 @@
       "name": "documentation-generation",
       "source": "./plugins/documentation-generation",
       "description": "OpenAPI specification generation, Mermaid diagram creation, tutorial writing, API reference documentation",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1411,6 +1454,45 @@
         "./agents/mermaid-expert.md",
         "./agents/tutorial-engineer.md",
         "./agents/reference-builder.md"
+      ],
+      "skills": [
+        "./skills/openapi-spec-generation",
+        "./skills/architecture-decision-records",
+        "./skills/changelog-automation"
+      ]
+    },
+    {
+      "name": "c4-architecture",
+      "source": "./plugins/c4-architecture",
+      "description": "Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagram generation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Redsec Labs",
+        "url": "https://github.com/demomuhaba"
+      },
+      "homepage": "https://github.com/demomuhaba/claude-agents",
+      "repository": "https://github.com/demomuhaba/claude-agents",
+      "license": "MIT",
+      "keywords": [
+        "c4",
+        "architecture",
+        "documentation",
+        "diagrams",
+        "system-design",
+        "component",
+        "container",
+        "context"
+      ],
+      "category": "documentation",
+      "strict": false,
+      "commands": [
+        "./commands/c4-architecture.md"
+      ],
+      "agents": [
+        "./agents/c4-code.md",
+        "./agents/c4-component.md",
+        "./agents/c4-container.md",
+        "./agents/c4-context.md"
       ]
     },
     {
@@ -1419,7 +1501,7 @@
       "description": "Cross-platform application development coordinating web, iOS, Android, and desktop implementations",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1451,9 +1533,9 @@
       "name": "business-analytics",
       "source": "./plugins/business-analytics",
       "description": "Business metrics analysis, KPI tracking, financial reporting, and data-driven decision making",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1472,15 +1554,19 @@
       "commands": [],
       "agents": [
         "./agents/business-analyst.md"
+      ],
+      "skills": [
+        "./skills/kpi-dashboard-design",
+        "./skills/data-storytelling"
       ]
     },
     {
       "name": "hr-legal-compliance",
       "source": "./plugins/hr-legal-compliance",
       "description": "HR policy documentation, legal compliance templates (GDPR/SOC2/HIPAA), employment contracts, and regulatory documentation",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1501,6 +1587,10 @@
       "agents": [
         "./agents/hr-pro.md",
         "./agents/legal-advisor.md"
+      ],
+      "skills": [
+        "./skills/gdpr-data-handling",
+        "./skills/employment-contract-templates"
       ]
     },
     {
@@ -1509,7 +1599,7 @@
       "description": "Customer support workflow automation, sales pipeline management, email campaigns, and CRM integration",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1536,7 +1626,7 @@
       "description": "Content marketing strategy, web research, and information synthesis for marketing operations",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1562,7 +1652,7 @@
       "description": "Smart contract development with Solidity, DeFi protocol implementation, NFT platforms, and Web3 application architecture",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1594,9 +1684,9 @@
       "name": "quantitative-trading",
       "source": "./plugins/quantitative-trading",
       "description": "Quantitative analysis, algorithmic trading strategies, financial modeling, portfolio risk management, and backtesting",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1615,6 +1705,10 @@
       "agents": [
         "./agents/quant-analyst.md",
         "./agents/risk-manager.md"
+      ],
+      "skills": [
+        "./skills/backtesting-frameworks",
+        "./skills/risk-metrics-calculation"
       ]
     },
     {
@@ -1623,7 +1717,7 @@
       "description": "Payment gateway integration with Stripe, PayPal, checkout flow implementation, subscription billing, and PCI compliance",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1655,9 +1749,9 @@
       "name": "game-development",
       "source": "./plugins/game-development",
       "description": "Unity game development with C# scripting, Minecraft server plugin development with Bukkit/Spigot APIs",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1677,15 +1771,19 @@
       "agents": [
         "./agents/unity-developer.md",
         "./agents/minecraft-bukkit-pro.md"
+      ],
+      "skills": [
+        "./skills/unity-ecs-patterns",
+        "./skills/godot-gdscript-patterns"
       ]
     },
     {
       "name": "accessibility-compliance",
       "source": "./plugins/accessibility-compliance",
       "description": "WCAG accessibility auditing, compliance validation, UI testing for screen readers, keyboard navigation, and inclusive design",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1705,6 +1803,10 @@
       ],
       "agents": [
         "./agents/ui-visual-validator.md"
+      ],
+      "skills": [
+        "./skills/wcag-audit-patterns",
+        "./skills/screen-reader-testing"
       ]
     },
     {
@@ -1713,7 +1815,7 @@
       "description": "Modern Python development with Python 3.12+, Django, FastAPI, async patterns, and production best practices",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1750,7 +1852,7 @@
       "description": "JavaScript and TypeScript development with ES6+, Node.js, React, and modern web frameworks",
       "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1783,9 +1885,9 @@
       "name": "systems-programming",
       "source": "./plugins/systems-programming",
       "description": "Systems programming with Rust, Go, C, and C++ for performance-critical and low-level development",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1809,6 +1911,11 @@
         "./agents/golang-pro.md",
         "./agents/c-pro.md",
         "./agents/cpp-pro.md"
+      ],
+      "skills": [
+        "./skills/rust-async-patterns",
+        "./skills/go-concurrency-patterns",
+        "./skills/memory-safety-patterns"
       ]
     },
     {
@@ -1817,7 +1924,7 @@
       "description": "JVM language development including Java, Scala, and C# with enterprise patterns and frameworks",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1846,7 +1953,7 @@
       "description": "Web scripting with PHP and Ruby for web applications, CMS development, and backend services",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1873,7 +1980,7 @@
       "description": "Functional programming with Elixir, OTP patterns, Phoenix framework, and distributed systems",
       "version": "1.2.0",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -1987,9 +2094,9 @@
       "name": "developer-essentials",
       "source": "./plugins/developer-essentials",
       "description": "Essential developer skills including Git workflows, SQL optimization, error handling, code review, E2E testing, authentication, debugging, and monorepo management",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
-        "name": "Red Scorp",
+        "name": "Redsec Labs",
         "url": "https://github.com/demomuhaba"
       },
       "homepage": "https://github.com/demomuhaba/claude-agents",
@@ -2008,7 +2115,9 @@
       "category": "development",
       "strict": false,
       "commands": [],
-      "agents": [],
+      "agents": [
+        "./agents/monorepo-architect.md"
+      ],
       "skills": [
         "./skills/git-advanced-workflows",
         "./skills/sql-optimization-patterns",
@@ -2017,7 +2126,10 @@
         "./skills/e2e-testing-patterns",
         "./skills/auth-implementation-patterns",
         "./skills/debugging-strategies",
-        "./skills/monorepo-management"
+        "./skills/monorepo-management",
+        "./skills/nx-workspace-patterns",
+        "./skills/turborepo-caching",
+        "./skills/bazel-build-optimization"
       ]
     }
   ]
